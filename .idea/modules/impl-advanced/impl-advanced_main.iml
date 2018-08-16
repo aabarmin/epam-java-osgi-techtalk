@@ -9,6 +9,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.osgi:org.osgi.core:6.0.0" level="project" />
     <orderEntry type="module" module-name="service_main" />
   </component>
 </module>
