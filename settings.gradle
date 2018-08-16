@@ -1,0 +1,6 @@
+rootProject.name = 'epam-java-osgi-techtalk'
+include 'app'
+include 'service'
+include 'utils'
+include 'impl-default'
+include 'impl-advanced'

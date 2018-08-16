@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+dependencies {
+    compile project(':utils')
+    compile project(':service')
+
+    compile project(':impl-default')
+    compile project(':impl-advanced')
+}

@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/impl-advanced/impl-advanced.iml" filepath="$PROJECT_DIR$/impl-advanced/impl-advanced.iml" />
-      <module fileurl="file://$PROJECT_DIR$/impl-default/impl-default.iml" filepath="$PROJECT_DIR$/impl-default/impl-default.iml" />
-      <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app_main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app_main.iml" group="app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app_test.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app_test.iml" group="app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/epam-java-osgi-techtalk.iml" filepath="$PROJECT_DIR$/.idea/modules/epam-java-osgi-techtalk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-advanced/impl-advanced.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-advanced/impl-advanced.iml" group="impl-advanced" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-advanced/impl-advanced_main.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-advanced/impl-advanced_main.iml" group="impl-advanced" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-advanced/impl-advanced_test.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-advanced/impl-advanced_test.iml" group="impl-advanced" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-default/impl-default.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-default/impl-default.iml" group="impl-default" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-default/impl-default_main.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-default/impl-default_main.iml" group="impl-default" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-default/impl-default_test.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-default/impl-default_test.iml" group="impl-default" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/service.iml" filepath="$PROJECT_DIR$/.idea/modules/service/service.iml" group="service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/service/service_main.iml" group="service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/service/service_test.iml" group="service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/utils.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/utils.iml" group="utils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/utils_main.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/utils_main.iml" group="utils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/utils_test.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/utils_test.iml" group="utils" />
     </modules>
   </component>
 </project>
