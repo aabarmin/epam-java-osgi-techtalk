@@ -1,9 +1,19 @@
 apply plugin: 'java'
+apply plugin: 'osgi'
 
-sourceCompatibility = 1.9
-targetCompatibility = 1.9
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+jar {
+    manifest {
+        name = 'application'
+        instruction 'Bundle-Activator', 'com.epam.techtalk.app.ApplicationActivator'
+    }
+}
 
 dependencies {
+    compile group: 'org.osgi', name: 'org.osgi.core', version: '6.0.0'
+
     compile project(':utils')
     compile project(':service')
 

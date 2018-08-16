@@ -2,16 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="app_main" target="1.9" />
-      <module name="app_test" target="1.9" />
-      <module name="impl-advanced_main" target="1.9" />
-      <module name="impl-advanced_test" target="1.9" />
-      <module name="impl-default_main" target="1.9" />
-      <module name="impl-default_test" target="1.9" />
-      <module name="service_main" target="1.9" />
-      <module name="service_test" target="1.9" />
-      <module name="utils_main" target="1.9" />
-      <module name="utils_test" target="1.9" />
+      <module name="app_main" target="1.7" />
+      <module name="app_test" target="1.7" />
+      <module name="impl-advanced_main" target="1.8" />
+      <module name="impl-advanced_test" target="1.8" />
+      <module name="impl-default_main" target="1.8" />
+      <module name="impl-default_test" target="1.8" />
+      <module name="service_main" target="1.8" />
+      <module name="service_test" target="1.8" />
+      <module name="utils_main" target="1.8" />
+      <module name="utils_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
