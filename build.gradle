@@ -1,3 +1,5 @@
+apply plugin: 'java'
+
 task wrapper(type: Wrapper) {
     gradleVersion = '4.8.1'
 }
@@ -5,5 +7,36 @@ task wrapper(type: Wrapper) {
 allprojects {
     repositories {
         jcenter()
+    }
+}
+
+task prepareAll {
+    dependsOn ':clean'
+    dependsOn ':app:jar'
+    dependsOn ':service:jar'
+    dependsOn ':impl-advanced:jar'
+
+    doLast {
+        def target = rootDir.getAbsolutePath() + '/dist'
+        def targetDir = new File(target)
+        if (!targetDir.exists()) {
+            targetDir.mkdirs()
+        }
+        targetDir.listFiles().each {
+            it.delete()
+        }
+        def srcFiles = [
+                rootDir.getAbsolutePath() + '/app/build/libs/app.jar',
+                rootDir.getAbsolutePath() + '/service/build/libs/service.jar',
+                rootDir.getAbsolutePath() + '/impl-default/build/libs/impl-default.jar'
+        ]
+        def targetFiles = [
+                target + '/app.jar',
+                target + '/service.jar',
+                target + '/impl-default.jar'
+        ]
+        for (def i = 0; i < srcFiles.size(); i++) {
+            new File(targetFiles[i]) << new File(srcFiles[i]).bytes
+        }
     }
 }

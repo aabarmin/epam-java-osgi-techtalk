@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app_main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app_main.iml" group="app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app_test.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app_test.iml" group="app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/epam-java-osgi-techtalk.iml" filepath="$PROJECT_DIR$/.idea/modules/epam-java-osgi-techtalk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/epam-java-osgi-techtalk_main.iml" filepath="$PROJECT_DIR$/.idea/modules/epam-java-osgi-techtalk_main.iml" group="epam-java-osgi-techtalk" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/epam-java-osgi-techtalk_test.iml" filepath="$PROJECT_DIR$/.idea/modules/epam-java-osgi-techtalk_test.iml" group="epam-java-osgi-techtalk" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-advanced/impl-advanced.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-advanced/impl-advanced.iml" group="impl-advanced" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-advanced/impl-advanced_main.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-advanced/impl-advanced_main.iml" group="impl-advanced" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-advanced/impl-advanced_test.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-advanced/impl-advanced_test.iml" group="impl-advanced" />
