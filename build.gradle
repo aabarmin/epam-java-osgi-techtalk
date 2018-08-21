@@ -28,12 +28,12 @@ task prepareAll {
         def srcFiles = [
                 rootDir.getAbsolutePath() + '/app/build/libs/app.jar',
                 rootDir.getAbsolutePath() + '/service/build/libs/service.jar',
-                rootDir.getAbsolutePath() + '/impl-default/build/libs/impl-default.jar'
+                rootDir.getAbsolutePath() + '/impl-advanced/build/libs/impl-advanced.jar'
         ]
         def targetFiles = [
                 target + '/app.jar',
                 target + '/service.jar',
-                target + '/impl-default.jar'
+                target + '/impl-advanced.jar'
         ]
         for (def i = 0; i < srcFiles.size(); i++) {
             new File(targetFiles[i]) << new File(srcFiles[i]).bytes
