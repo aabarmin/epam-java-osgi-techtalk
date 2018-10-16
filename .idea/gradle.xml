@@ -15,7 +15,6 @@
             <option value="$PROJECT_DIR$/impl-advanced" />
             <option value="$PROJECT_DIR$/impl-default" />
             <option value="$PROJECT_DIR$/service" />
-            <option value="$PROJECT_DIR$/utils" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

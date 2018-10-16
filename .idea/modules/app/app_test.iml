@@ -10,7 +10,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="app_main" />
-    <orderEntry type="module" module-name="utils_main" />
     <orderEntry type="module" module-name="impl-default_main" />
     <orderEntry type="module" module-name="impl-advanced_main" />
     <orderEntry type="module" module-name="service_main" />

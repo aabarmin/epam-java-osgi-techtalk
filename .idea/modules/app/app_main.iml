@@ -9,7 +9,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="utils_main" />
     <orderEntry type="module" module-name="impl-default_main" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.osgi:org.osgi.core:6.0.0" level="project" />
     <orderEntry type="module" module-name="impl-advanced_main" />
