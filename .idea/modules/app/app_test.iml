@@ -11,6 +11,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="app_main" />
     <orderEntry type="module" module-name="service_main" />
+    <orderEntry type="module" module-name="impl-default_main" scope="RUNTIME" />
+    <orderEntry type="module" module-name="impl-advanced_main" scope="RUNTIME" />
   </component>
   <component name="TestModuleProperties" production-module="app_main" />
 </module>

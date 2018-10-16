@@ -1,3 +1,42 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.9
+targetCompatibility = 1.9
+
 task wrapper(type: Wrapper) {
     gradleVersion = '4.8.1'
+}
+
+task prepareAll {
+    dependsOn ':clean'
+    dependsOn ':service:jar'
+    dependsOn ':app:jar'
+    dependsOn ':impl-advanced:jar'
+    dependsOn ':impl-default:jar'
+
+    doLast {
+        def target = rootDir.getAbsolutePath() + '/dist'
+        def targetDir = new File(target)
+        if (!targetDir.exists()) {
+            targetDir.mkdirs()
+        }
+        targetDir.listFiles().each {
+            it.delete()
+        }
+        def srcFiles = [
+                rootDir.getAbsolutePath() + '/app/build/libs/app.jar',
+                rootDir.getAbsolutePath() + '/service/build/libs/service.jar',
+                rootDir.getAbsolutePath() + '/impl-advanced/build/libs/impl-advanced.jar',
+                rootDir.getAbsolutePath() + '/impl-default/build/libs/impl-default.jar'
+        ]
+        def targetFiles = [
+                target + '/app.jar',
+                target + '/service.jar',
+                target + '/impl-advanced.jar',
+                target + '/impl-default.jar'
+        ]
+        for (def i = 0; i < srcFiles.size(); i++) {
+            new File(targetFiles[i]) << new File(srcFiles[i]).bytes
+        }
+    }
 }

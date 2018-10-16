@@ -1,4 +1,16 @@
 apply plugin: 'java'
 
+ext.moduleName = 'epam.techtalk.service'
+
 sourceCompatibility = 1.9
 targetCompatibility = 1.9
+
+compileJava {
+    inputs.property("moduleName", moduleName)
+    doFirst {
+        options.compilerArgs = [
+                '--module-path', classpath.asPath
+        ]
+        classpath = files()
+    }
+}

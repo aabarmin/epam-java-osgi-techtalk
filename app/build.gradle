@@ -4,5 +4,20 @@ sourceCompatibility = 1.9
 targetCompatibility = 1.9
 
 dependencies {
-    compile project(':service')
+    implementation project(':service')
+
+    runtimeOnly project(":impl-default")
+    runtimeOnly project(":impl-advanced")
+}
+
+ext.moduleName = 'epam.techtalk.app'
+
+compileJava {
+    inputs.property("moduleName", moduleName)
+    doFirst {
+        options.compilerArgs = [
+                '--module-path', classpath.asPath
+        ]
+        classpath = files()
+    }
 }
