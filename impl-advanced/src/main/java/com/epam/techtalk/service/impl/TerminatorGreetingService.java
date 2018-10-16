@@ -1,4 +1,4 @@
-package com.epam.techtalk.service.advanced;
+package com.epam.techtalk.service.impl;
 
 import com.epam.techtalk.service.GreetingService;
 
