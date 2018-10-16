@@ -4,7 +4,6 @@ sourceCompatibility = 1.9
 targetCompatibility = 1.9
 
 dependencies {
-    compile project(':utils')
     compile project(':service')
 
     compile project(':impl-default')
