@@ -5,9 +5,6 @@ targetCompatibility = 1.9
 
 dependencies {
     implementation project(':service')
-
-    runtimeOnly project(":impl-default")
-    runtimeOnly project(":impl-advanced")
 }
 
 ext.moduleName = 'epam.techtalk.app'
