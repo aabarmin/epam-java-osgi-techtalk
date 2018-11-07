@@ -1,5 +1,7 @@
-module epam.techtalk.app {
-    requires epam.techtalk.service;
+import com.epam.subbotnik.provider.ITSubbotnikCityProvider;
 
-    uses com.epam.techtalk.service.GreetingService;
+module epam.subbotnik.app {
+    requires epam.subbotnik.provider;
+
+    uses ITSubbotnikCityProvider;
 }

@@ -1,15 +1,15 @@
 package com.epam.techtalk.app;
 
-import com.epam.techtalk.service.GreetingService;
-
 import java.util.ServiceLoader;
+
+import com.epam.subbotnik.provider.ITSubbotnikCityProvider;
 
 public class Application {
     public static void main(String[] args) {
-        final ServiceLoader<GreetingService> loader = ServiceLoader.load(GreetingService.class);
+        final ServiceLoader<ITSubbotnikCityProvider> loader = ServiceLoader.load(ITSubbotnikCityProvider.class);
         loader.stream()
                 .map(ServiceLoader.Provider::get)
-                .map(GreetingService::getGreetingMessage)
+                .map(ITSubbotnikCityProvider::provideCity)
                 .forEach(System.out::println);
     }
 }
