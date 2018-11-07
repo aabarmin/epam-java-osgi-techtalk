@@ -6,11 +6,18 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app_main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app_main.iml" group="app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app_test.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app_test.iml" group="app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-izhevsk/impl-izhevsk.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-izhevsk/impl-izhevsk.iml" group="impl-izhevsk" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-izhevsk/impl-izhevsk.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-izhevsk/impl-izhevsk.iml" group="impl-izhevsk" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-izhevsk/impl-izhevsk_main.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-izhevsk/impl-izhevsk_main.iml" group="impl-izhevsk" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-izhevsk/impl-izhevsk_main.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-izhevsk/impl-izhevsk_main.iml" group="impl-izhevsk" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-izhevsk/impl-izhevsk_test.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-izhevsk/impl-izhevsk_test.iml" group="impl-izhevsk" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-izhevsk/impl-izhevsk_test.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-izhevsk/impl-izhevsk_test.iml" group="impl-izhevsk" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-spb/impl-spb.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-spb/impl-spb.iml" group="impl-spb" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-spb/impl-spb.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-spb/impl-spb.iml" group="impl-spb" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-spb/impl-spb_main.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-spb/impl-spb_main.iml" group="impl-spb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-spb/impl-spb_main.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-spb/impl-spb_main.iml" group="impl-spb" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-spb/impl-spb_test.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-spb/impl-spb_test.iml" group="impl-spb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-spb/impl-spb_test.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-spb/impl-spb_test.iml" group="impl-spb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/itsubbotnik.iml" filepath="$PROJECT_DIR$/.idea/modules/itsubbotnik.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/itsubbotnik.iml" filepath="$PROJECT_DIR$/.idea/modules/itsubbotnik.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/service.iml" filepath="$PROJECT_DIR$/.idea/modules/service/service.iml" group="service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/service/service_main.iml" group="service" />

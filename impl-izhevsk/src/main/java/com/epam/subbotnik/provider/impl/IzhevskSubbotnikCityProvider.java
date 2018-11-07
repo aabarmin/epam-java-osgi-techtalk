@@ -1,4 +1,4 @@
-package com.epam.subbotnik.provider.izhevsk;
+package com.epam.subbotnik.provider.impl;
 
 import com.epam.subbotnik.provider.ITSubbotnikCityProvider;
 
