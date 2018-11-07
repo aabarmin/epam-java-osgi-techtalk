@@ -2,3 +2,15 @@ apply plugin: 'java'
 
 sourceCompatibility = 1.9
 targetCompatibility = 1.9
+
+
+ext.moduleName = 'epam.subbotnik.provider'
+compileJava {
+    inputs.property("moduleName", moduleName)
+    doFirst {
+        options.compilerArgs = [
+                '--module-path', classpath.asPath
+        ]
+        classpath = files()
+    }
+}

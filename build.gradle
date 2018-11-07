@@ -1,3 +1,40 @@
+apply plugin: 'java'
+sourceCompatibility = 1.9
+targetCompatibility = 1.9
+
 task wrapper(type: Wrapper) {
     gradleVersion = '4.8.1'
+}
+
+task prepareAll {
+    dependsOn ':clean'
+    dependsOn ':service:jar'
+    dependsOn ':app:jar'
+    dependsOn ':impl-izhevsk:jar'
+    dependsOn ':impl-spb:jar'
+    doLast {
+        def target = rootDir.getAbsolutePath() + '/dist'
+        def targetDir = new File(target)
+        if (!targetDir.exists()) {
+            targetDir.mkdirs()
+        }
+        targetDir.listFiles().each {
+            it.delete()
+        }
+        def srcFiles = [
+                rootDir.getAbsolutePath() + '/app/build/libs/app.jar',
+                rootDir.getAbsolutePath() + '/service/build/libs/service.jar',
+                rootDir.getAbsolutePath() + '/impl-spb/build/libs/impl-spb.jar',
+                rootDir.getAbsolutePath() + '/impl-izhevsk/build/libs/impl-izhevsk.jar'
+        ]
+        def targetFiles = [
+                target + '/app.jar',
+                target + '/service.jar',
+                target + '/impl-spb.jar',
+                target + '/impl-izhevsk.jar'
+        ]
+        for (def i = 0; i < srcFiles.size(); i++) {
+            new File(targetFiles[i]) << new File(srcFiles[i]).bytes
+        }
+    }
 }

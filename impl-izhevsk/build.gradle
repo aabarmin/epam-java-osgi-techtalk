@@ -6,3 +6,14 @@ targetCompatibility = 1.9
 dependencies {
     compile project(':service')
 }
+
+ext.moduleName = 'epam.subbotnik.provider.izhevsk'
+compileJava {
+    inputs.property("moduleName", moduleName)
+    doFirst {
+        options.compilerArgs = [
+                '--module-path', classpath.asPath
+        ]
+        classpath = files()
+    }
+}

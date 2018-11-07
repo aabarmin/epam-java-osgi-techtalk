@@ -5,4 +5,19 @@ targetCompatibility = 1.9
 
 dependencies {
     compile project(':service')
+
+    runtimeOnly project(":impl-izhevsk")
+    runtimeOnly project(":impl-spb")
+}
+
+ext.moduleName = 'epam.subbotnik.app'
+
+compileJava {
+    inputs.property("moduleName", moduleName)
+    doFirst {
+        options.compilerArgs = [
+                '--module-path', classpath.asPath
+        ]
+        classpath = files()
+    }
 }
