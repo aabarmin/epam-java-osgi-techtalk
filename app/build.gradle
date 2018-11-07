@@ -10,7 +10,7 @@ jar {
         instruction 'Bundle-Activator', 'com.epam.techtalk.app.ApplicationActivator'
         instruction 'Import-Package',
                 'org.osgi.framework',
-                'com.epam.techtalk.service'
+                'com.epam.subbotnik.provider'
     }
 }
 
