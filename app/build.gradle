@@ -5,7 +5,4 @@ targetCompatibility = 1.9
 
 dependencies {
     compile project(':service')
-
-    compile project(':impl-spb')
-    compile project(':impl-izhevsk')
 }
