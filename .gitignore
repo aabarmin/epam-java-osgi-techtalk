@@ -23,3 +23,6 @@ hs_err_pid*
 felix-framework-6.0.0/felix-cache/*
 felix-framework-6.0.0/bin/*
 dist/*
+
+*.iml
+.idea
