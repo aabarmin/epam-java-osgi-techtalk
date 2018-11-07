@@ -1,3 +1,3 @@
-module epam.techtalk.service {
-    exports com.epam.techtalk.service;
+module epam.subbotnik.provider {
+    exports com.epam.subbotnik.provider;
 }

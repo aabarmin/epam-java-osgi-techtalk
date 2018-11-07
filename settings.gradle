@@ -1,5 +1,5 @@
-rootProject.name = 'epam-java-osgi-techtalk'
+rootProject.name = 'itsubbotnik'
 include 'app'
 include 'service'
-include 'impl-default'
-include 'impl-advanced'
+include 'impl-spb'
+include 'impl-izhevsk'
