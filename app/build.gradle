@@ -7,7 +7,7 @@ targetCompatibility = 1.8
 jar {
     manifest {
         name = 'application'
-        instruction 'Bundle-Activator', 'com.epam.techtalk.app.ApplicationActivator'
+        instruction 'Bundle-Activator', 'com.epam.subbotnik.app.ApplicationActivator'
         instruction 'Import-Package',
                 'org.osgi.framework',
                 'com.epam.subbotnik.provider'

@@ -1,4 +1,4 @@
-package com.epam.techtalk.app;
+package com.epam.subbotnik.app;
 
 import com.epam.subbotnik.provider.ITSubbotnikCityProvider;
 import org.osgi.framework.BundleActivator;
