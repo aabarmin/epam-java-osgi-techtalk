@@ -12,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-spb/impl-spb_main.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-spb/impl-spb_main.iml" group="impl-spb" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/impl-spb/impl-spb_test.iml" filepath="$PROJECT_DIR$/.idea/modules/impl-spb/impl-spb_test.iml" group="impl-spb" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/itsubbotnik.iml" filepath="$PROJECT_DIR$/.idea/modules/itsubbotnik.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/itsubbotnik_main.iml" filepath="$PROJECT_DIR$/.idea/modules/itsubbotnik_main.iml" group="itsubbotnik" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/itsubbotnik_test.iml" filepath="$PROJECT_DIR$/.idea/modules/itsubbotnik_test.iml" group="itsubbotnik" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/service.iml" filepath="$PROJECT_DIR$/.idea/modules/service/service.iml" group="service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/service/service_main.iml" group="service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/service/service_test.iml" group="service" />
