@@ -1,6 +1,6 @@
 package com.epam.techtalk.app;
 
-import com.epam.techtalk.service.GreetingService;
+import com.epam.subbotnik.provider.ITSubbotnikCityProvider;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.ServiceReference;
@@ -12,12 +12,12 @@ public class ApplicationActivator implements BundleActivator {
     public void start(BundleContext context) throws Exception {
         System.out.println("Application bundle starting");
 
-        final Collection<ServiceReference<GreetingService>> references =
-                context.getServiceReferences(GreetingService.class, null);
+        final Collection<ServiceReference<ITSubbotnikCityProvider>> references =
+                context.getServiceReferences(ITSubbotnikCityProvider.class, null);
 
-        for (ServiceReference<GreetingService> reference : references) {
-            final GreetingService service = context.getService(reference);
-            System.out.println(service.getGreetingMessage());
+        for (ServiceReference<ITSubbotnikCityProvider> reference : references) {
+            final ITSubbotnikCityProvider provider = context.getService(reference);
+            System.out.println(provider.provideCity());
         }
 
     }

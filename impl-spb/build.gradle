@@ -6,11 +6,11 @@ targetCompatibility = 1.8
 
 jar {
     manifest {
-        name = 'service-impl-default'
+        name = 'service-impl-spb'
         instruction 'Import-Package',
                 'org.osgi.framework',
-                'com.epam.techtalk.service'
-        instruction 'Bundle-Activator', 'com.epam.techtalk.service.def.DefaultServiceActivator'
+                'com.epam.subbotnik.provider'
+        instruction 'Bundle-Activator', 'com.epam.subbotnik.provider.spb.SpbSubbotnikServiceActivator'
     }
 }
 

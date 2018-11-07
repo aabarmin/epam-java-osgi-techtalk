@@ -1,21 +1,21 @@
-package com.epam.techtalk.service.def;
+package com.epam.subbotnik.provider.spb;
 
-import com.epam.techtalk.service.GreetingService;
+import com.epam.subbotnik.provider.ITSubbotnikCityProvider;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.ServiceRegistration;
 
-public class DefaultServiceActivator implements BundleActivator {
+public class SpbSubbotnikServiceActivator implements BundleActivator {
     private ServiceRegistration<?> registration;
 
     @Override
     public void start(BundleContext context) throws Exception {
-        System.out.println("Starting default greeting service");
-        final GreetingService greetingService = new JohnSnowGreetingService();
+        System.out.println("Starting SPb ITSubbotnik provider bundle");
+        final ITSubbotnikCityProvider provider = new SpbSubbotnikCityProvider();
 
         registration = context.registerService(
-                GreetingService.class.getName(),
-                greetingService,
+                ITSubbotnikCityProvider.class.getName(),
+                provider,
                 null
         );
     }

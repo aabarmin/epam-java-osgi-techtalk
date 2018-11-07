@@ -1,21 +1,21 @@
-package com.epam.techtalk.service.advanced;
+package com.epam.subbotnik.provider.izhevsk;
 
-import com.epam.techtalk.service.GreetingService;
+import com.epam.subbotnik.provider.ITSubbotnikCityProvider;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.ServiceRegistration;
 
-public class AdvancedServiceActivator implements BundleActivator {
+public class IzhevskSubbotnikServiceActivator implements BundleActivator {
     private ServiceRegistration<?> registration;
 
     @Override
     public void start(BundleContext context) throws Exception {
-        System.out.println("Starting advanced greeting service");
-        final TerminatorGreetingService greetingService = new TerminatorGreetingService();
+        System.out.println("Starting Izhevsk ITSubbotnik provider bundle");
+        final ITSubbotnikCityProvider provider = new IzhevskSubbotnikCityProvider();
 
         registration = context.registerService(
-                GreetingService.class.getName(),
-                greetingService,
+                ITSubbotnikCityProvider.class.getName(),
+                provider,
                 null
         );
     }
