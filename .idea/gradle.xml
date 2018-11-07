@@ -12,8 +12,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/impl-advanced" />
-            <option value="$PROJECT_DIR$/impl-default" />
+            <option value="$PROJECT_DIR$/impl-izhevsk" />
+            <option value="$PROJECT_DIR$/impl-spb" />
             <option value="$PROJECT_DIR$/service" />
           </set>
         </option>

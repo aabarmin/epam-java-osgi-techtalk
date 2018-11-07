@@ -7,6 +7,6 @@ targetCompatibility = 1.8
 jar {
     manifest {
         name = 'service'
-        instruction 'Export-Package', 'com.epam.techtalk.service'
+        instruction 'Export-Package', 'com.epam.subbotnik.provider'
     }
 }

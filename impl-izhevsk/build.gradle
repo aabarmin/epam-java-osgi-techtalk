@@ -6,19 +6,16 @@ targetCompatibility = 1.8
 
 jar {
     manifest {
-        name = 'application'
-        instruction 'Bundle-Activator', 'com.epam.subbotnik.app.ApplicationActivator'
+        name = 'service-impl-izhevsk'
         instruction 'Import-Package',
                 'org.osgi.framework',
                 'com.epam.subbotnik.provider'
+        instruction 'Bundle-Activator', 'com.epam.subbotnik.provider.izhevsk.IzhevskSubbotnikServiceActivator'
     }
 }
 
 dependencies {
-    compileOnly group: 'org.osgi', name: 'org.osgi.core', version: '6.0.0'
-
     compile project(':service')
 
-    compile project(':impl-spb')
-    compile project(':impl-izhevsk')
+    compileOnly group: 'org.osgi', name: 'org.osgi.core', version: '6.0.0'
 }

@@ -10,6 +10,12 @@
       <module name="impl-advanced_test" target="1.8" />
       <module name="impl-default_main" target="1.8" />
       <module name="impl-default_test" target="1.8" />
+      <module name="impl-izhevsk_main" target="1.8" />
+      <module name="impl-izhevsk_test" target="1.8" />
+      <module name="impl-spb_main" target="1.8" />
+      <module name="impl-spb_test" target="1.8" />
+      <module name="itsubbotnik_main" target="1.9" />
+      <module name="itsubbotnik_test" target="1.9" />
       <module name="service_main" target="1.8" />
       <module name="service_test" target="1.8" />
       <module name="utils_main" target="1.8" />

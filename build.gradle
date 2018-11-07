@@ -14,8 +14,8 @@ task prepareAll {
     dependsOn ':clean'
     dependsOn ':app:jar'
     dependsOn ':service:jar'
-    dependsOn ':impl-advanced:jar'
-    dependsOn ':impl-default:jar'
+    dependsOn ':impl-spb:jar'
+    dependsOn ':impl-izhevsk:jar'
 
     doLast {
         def target = rootDir.getAbsolutePath() + '/dist'
@@ -29,14 +29,14 @@ task prepareAll {
         def srcFiles = [
                 rootDir.getAbsolutePath() + '/app/build/libs/app.jar',
                 rootDir.getAbsolutePath() + '/service/build/libs/service.jar',
-                rootDir.getAbsolutePath() + '/impl-advanced/build/libs/impl-advanced.jar',
-                rootDir.getAbsolutePath() + '/impl-default/build/libs/impl-default.jar'
+                rootDir.getAbsolutePath() + '/impl-spb/build/libs/impl-spb.jar',
+                rootDir.getAbsolutePath() + '/impl-izhevsk/build/libs/impl-izhevsk.jar'
         ]
         def targetFiles = [
                 target + '/app.jar',
                 target + '/service.jar',
-                target + '/impl-advanced.jar',
-                target + '/impl-default.jar'
+                target + '/impl-spb.jar',
+                target + '/impl-izhevsk.jar'
         ]
         for (def i = 0; i < srcFiles.size(); i++) {
             new File(targetFiles[i]) << new File(srcFiles[i]).bytes
