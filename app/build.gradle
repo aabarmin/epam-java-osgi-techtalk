@@ -5,9 +5,6 @@ targetCompatibility = 1.9
 
 dependencies {
     compile project(':service')
-
-    runtimeOnly project(":impl-izhevsk")
-    runtimeOnly project(":impl-spb")
 }
 
 ext.moduleName = 'epam.subbotnik.app'
