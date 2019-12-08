@@ -9,3 +9,15 @@ dependencies {
     compile project(':impl-spb')
     compile project(':impl-izhevsk')
 }
+
+ext.moduleName = 'epam.techtalk.app'
+
+compileJava {
+    inputs.property("moduleName", moduleName)
+    doFirst {
+        options.compilerArgs = [
+                '--module-path', classpath.asPath
+        ]
+        classpath = files()
+    }
+}
